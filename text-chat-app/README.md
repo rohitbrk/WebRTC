@@ -1,6 +1,6 @@
 This is just a simple text based chat application built using WebRTC
 
-Using WebRTC, we can transfers data from one system to other system without a intermediate server
+Using WebRTC, we can transfer data from one system to other system without a intermediate server. (Anyway, we need a server to initiate the connection. The purpose of the server is to let two parties know their addresses. But in this example, we won't be using a server. We will be just manually copy-paste the addresses)
 
 Here in the application:
 
