@@ -29,4 +29,4 @@ await secondCandidate
   );
 
 // after connection
-textReceiver.channel.send("wassup");
+textReceiver.send("wassup");
