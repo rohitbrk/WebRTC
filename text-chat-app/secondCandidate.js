@@ -8,8 +8,9 @@ secondCandidate.onicecandidate = (event) => {
 };
 
 // setting up data channel
+let textReceiver;
 secondCandidate.ondatachannel = (event) => {
-  const textReceiver = event.channel;
+  textReceiver = event.channel;
   textReceiver.onmessage = (event) => console.log("other guy: " + event.data);
   textReceiver.onopen = (event) => console.log("connection opened");
   textReceiver.onclose = (event) => console.log("connection closed");
